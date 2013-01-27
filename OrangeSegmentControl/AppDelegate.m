@@ -56,9 +56,9 @@
 - (void)setupAppearance {
   
   UIImage *segmentControlNormalBackgroundImage = [UIImage imageNamed:@"segmentNormal"];
-  UIImage *segmentControlNormalBackgroundImageStretch = [segmentControlNormalBackgroundImage resizableImageWithCapInsets:UIEdgeInsetsMake(4, 5, 4, 5) resizingMode:UIImageResizingModeTile];
+  UIImage *segmentControlNormalBackgroundImageStretch = [segmentControlNormalBackgroundImage resizableImageWithCapInsets:UIEdgeInsetsMake(4, 5, 4, 5)];
   UIImage *segmentControlSelectedBackgroundImage = [UIImage imageNamed:@"segmentSelected"];
-  UIImage *segmentControlSelectedBackgroundImageStretch = [segmentControlSelectedBackgroundImage resizableImageWithCapInsets:UIEdgeInsetsMake(4, 5, 4, 5) resizingMode:UIImageResizingModeTile];
+  UIImage *segmentControlSelectedBackgroundImageStretch = [segmentControlSelectedBackgroundImage resizableImageWithCapInsets:UIEdgeInsetsMake(4, 5, 4, 5)];
 
   UIImage *seperatorLeftNormalRightNormal = [UIImage imageNamed:@"seperator-leftnormal-rightnormal"];
   
