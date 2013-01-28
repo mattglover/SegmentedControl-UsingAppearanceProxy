@@ -8,9 +8,6 @@
 
 #import "RootViewController.h"
 
-@interface RootViewController ()
-@end
-
 @implementation RootViewController
 
 - (void)viewDidLoad {
@@ -18,6 +15,7 @@
   
   UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:@[@"Zero", @"One", @"Two", @"Three"]];
   [segmentedControl setFrame:CGRectMake(20, 50, 280, 39)];
+  [segmentedControl setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin];
   [segmentedControl addTarget:self action:@selector(segmentedControlValueChanged:) forControlEvents:UIControlEventValueChanged];
   [self.view addSubview:segmentedControl];
 }
